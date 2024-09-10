@@ -1,0 +1,40 @@
+/* Le code CSS de l'exercice dirigé */
+
+@font-face {
+    font-family: "Muli-Regular";
+    src: local("Muli-Regular");
+}
+@font-face {
+    font-family: "Barriecito-Regular";
+    src: local("Barriecito-Regular");
+}
+*{
+    font-family: "Muli";
+}
+h1, h2, h3 {
+    font-family: "Barriecito";
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+.fa-facebook {
+    color:rgb(53, 53, 180);
+    float: left;
+}
+
+.fa-twitter {
+    color:rgb(62, 77, 213);
+    float: left;
+}
+.fa-youtube {
+    color:rgb(255, 1, 1);
+    float: left;
+}
+footer {
+    margin-top: 20px;
+    clear:both;
+}
